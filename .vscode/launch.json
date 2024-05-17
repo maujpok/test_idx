@@ -1,0 +1,44 @@
+{
+    // This is the version of the launch configuration format.
+    "version": "0.2.0",
+
+    // This is a list of configurations that can be used to launch the application.
+    "configurations": [
+        {
+            // This is the name of the configuration.
+            "name": "myapp",
+
+            // This is the type of launch configuration.
+            "type": "dart",
+
+            // This is the request type for the launch configuration.
+            "request": "launch"
+        },
+        {
+            // This is the name of the configuration.
+            "name": "myapp (profile mode)",
+
+            // This is the type of launch configuration.
+            "type": "dart",
+
+            // This is the request type for the launch configuration.
+            "request": "launch",
+
+            // This is the flutter mode for the launch configuration.
+            "flutterMode": "profile"
+        },
+        {
+            // This is the name of the configuration.
+            "name": "myapp (release mode)",
+
+            // This is the type of launch configuration.
+            "type": "dart",
+
+            // This is the request type for the launch configuration.
+            "request": "launch",
+
+            // This is the flutter mode for the launch configuration.
+            "flutterMode": "release"
+        }
+    ]
+}
